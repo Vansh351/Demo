@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@600&display=swap');
+
+.loginformContainer{
+    padding:15px 20px;
+    min-height: 400px;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: auto auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+   /* gap:20px; */
+}
+
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.loginform h2{
+    font-family:'Noto Serif Lao', serif;
+}
+
+.form input{
+   padding: 5px 15px;
+   outline: transparent solid 2px;
+   outline-offset: 2px;
+   border-radius: 5px;
+   border-width: 1px;
+   color:purple;
+}
+
+#smalldiv1{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+#smalldiv2{
+    display: flex;
+   justify-content: flex-end;
+}
+
+#smalldiv2 a{
+    margin:0px 8px;
+    text-decoration: none;
+}
+
+.error{
+    color:red;
+}
